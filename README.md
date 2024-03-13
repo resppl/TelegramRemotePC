@@ -24,8 +24,8 @@ pip install pyautogui pygetwindow python-telegram-bot opencv-python pyaudio psut
 - Find the Telegram bot @BotFather in the search and start a dialogue with him by clicking the "Start" button.
 - Write the /newbot command to create a new bot.
 - Follow the instructions of BotFather, enter a name for your bot and get a unique username for it.
-- Replace "YOUR_BOT_TOKEN_HERE" in the script called "TelegramRemotePC" with the copied token from BotFather.
-- Replace "YOUR_ID_TELEGRAM" in the script called "TelegramRemotePC" with your Telegram ID.
+- Replace "YOUR_BOT_TOKEN_HERE" in the script called "TelegramRemotePCUS" with the copied token from BotFather.
+- Replace "YOUR_ID_TELEGRAM" in the script called "TelegramRemotePCUS" with your Telegram ID.
 
 # TO COMPILE A PYTHON FILE INTO AN EXECUTABLE FILE (EXE) USING PYINSTALLER AND ADD AN ICON, FOLLOW THE INSTRUCTIONS BELLOW
 
@@ -82,8 +82,8 @@ pip install pyautogui pygetwindow python-telegram-bot opencv-python pyaudio psut
 - Найдите в поиске Telegram бота @BotFather и начните с ним диалог, нажав кнопку "Start".
 - Напишите команду /newbot, чтобы создать нового бота.
 - Следуйте инструкциям BotFather, введите имя для вашего бота и получите уникальное имя пользователя для него.
-- Замените "YOUR_BOT_TOKEN_HERE" в скрипте под названием "TelegramRemotePC" на скопированный токен от BotFather.
-- Замените "YOUR_ID_TELEGRAM" в скрипте под названием "TelegramRemotePC" на ваш ID Telegram.
+- Замените "YOUR_BOT_TOKEN_HERE" в скрипте под названием "TelegramRemotePCRU" на скопированный токен от BotFather.
+- Замените "YOUR_ID_TELEGRAM" в скрипте под названием "TelegramRemotePCRU" на ваш ID Telegram.
 
 # Для того чтобы скомпилировать файл Python в исполняемый файл (exe) с помощью PyInstaller и добавить иконку, следуйте инструкциям ниже:
 
