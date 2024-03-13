@@ -1,4 +1,4 @@
-# 🇺🇸 | TelegramRemotePC (EN)
+# 🇺🇸 | TelegramRemotePC
 Remote computer management via Telegram is a convenient and secure way to control your computer from anywhere in the world. This script provides a wide range of functions for computer management:
 
 - The ability to run programs, files, as well as a special function for running Python scripts.
