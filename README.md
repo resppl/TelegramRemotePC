@@ -18,7 +18,7 @@ For the effective functioning of this script, it is necessary to compile it and 
 ❗️ Please note that as the author of this script, I am not responsible for any actions that may be performed by you based on my recommendations or instructions. You take full responsibility for your actions and the risks associated with them. I want to emphasize that I do not urge you to perform any actions without proper assessment and understanding of their consequences. Please remember that the use of this script is intended solely for remote control of your computer and should not be used for illegal purposes.
 
 # RUN THE COMMAND IN THE COMMAND PROMPT:
-pip install pyautogui pygetwindow python-telegram-bot opencv-python pyaudio psutil keyboard screen-brightness-control
+pip install pyautogui subprocess keyboard psutil sqlite3 opencv-python pyaudio pywin32 telebot pygetwindow requests aiohttp asyncio screen_brightness_control
 
 # HOW TO CREATE A BOT IN TELEGRAM AND GIVE YOURSELF RIGHTS:
 - Find the Telegram bot @BotFather in the search and start a dialogue with him by clicking the "Start" button.
@@ -76,7 +76,7 @@ pip install pyautogui pygetwindow python-telegram-bot opencv-python pyaudio psut
 ❗️ Обратите внимание, что я, как автор данного скрипта, не несу ответственности за любые действия, которые могут быть выполнены Вами на основе моих рекомендаций или инструкций. Вы принимаете на себя полную ответственность за свои действия и риски, связанные с ними. Я хочу подчеркнуть, что не призываю Вас выполнять какие-либо действия без должной оценки и понимания их последствий. Пожалуйста, помните, что использование данного скрипта предназначено исключительно для удаленного управления вашим компьютерм и не должно быть использовано в нелегальных целях.
 
 # Выполните команду в командной строке:
-pip install pyautogui pygetwindow python-telegram-bot opencv-python pyaudio psutil keyboard screen-brightness-control
+pip install pyautogui subprocess keyboard psutil sqlite3 opencv-python pyaudio pywin32 telebot pygetwindow requests aiohttp asyncio screen_brightness_control
 
 # Как создать бота в Telegram и выдать себе права:
 - Найдите в поиске Telegram бота @BotFather и начните с ним диалог, нажав кнопку "Start".
