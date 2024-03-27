@@ -8,9 +8,9 @@ Remote computer management via Telegram is a convenient and secure way to contro
 - Taking screenshots of the screen and camera, as well as recording video from the camera (up to 60 seconds) and recording voice (up to 60 seconds).
 - Full keyboard access to use keyboard shortcuts and print characters.
 - Automatic output of information about the computer when the bot is launched: IP address, startup time, screen resolution, information about memory, user name, active window, installed OS, processor, RAM, battery. This function can be called at any time.
-- Opening websites, controlling the brightness of the screen.
+- Opening websites, controlling the brightness of the screen, controlling computer sound.
 - Download files from a PC up to 50 MB and upload files up to 20 MB with the option of choosing a path.
-- Trolling with moving the mouse, opening websites and explorer.
+- Trolling with moving the mouse, opening websites and File Explorer, command console.
 - Quick shutdown, PC reboot or logout
 
 For the effective functioning of this script, it is necessary to compile it and implement the necessary parameters of the telegram bot API into it, as well as specify your own Telegram ID. This process will allow you to gain full control over access control to your computer. Thanks to this security measure, you can reliably protect your device from unwanted intrusions.
@@ -63,9 +63,9 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Создание скриншотов экрана и камеры, а также запись видео с камеры (до 60 секунд) и запись голоса (до 60 секунд).
 - Полный доступ к клавиатуре для использования сочетаний клавиш и печати символов.
 - Автоматический вывод информации о компьютере при запуске бота: IP-адрес, время запуска, разрешение экрана, информация о памяти, имени пользователя, активном окне, установленной ОС, процессоре, ОЗУ, батарее. Эту функцию можно вызвать в любое время.
-- Открытие сайтов, управление яркостью экрана.
+- Открытие сайтов, управление яркостью экрана, управление звуком компьютера.
 - Скачивание файлов с ПК до 50 МБ и выгрузка файлов до 20 МБ с возможностью выбора пути.
-- Троллинг с перемещением мыши, открытием сайтов и проводника.
+- Троллинг с перемещением мыши, открытием сайтов, проводника и командной консоли.
 - Быстрое выключение, перезагрузка ПК или выход из учетной записи.
 - Управление процессами: отображение списка и выключение процессов.
 - Максимальная защита от посторонних лиц с неограниченным количеством администраторов, выдача доступа по ID Telegram пользователя.
