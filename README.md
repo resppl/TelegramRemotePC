@@ -10,7 +10,7 @@ Remote computer management via Telegram is a convenient and secure way to contro
 - Automatic output of information about the computer when the bot is launched: IP address, startup time, screen resolution, information about memory, user name, active window, installed OS, processor, RAM, battery. This function can be called at any time.
 - Opening websites, controlling the brightness of the screen, controlling computer sound.
 - Download files from a PC up to 50 MB and upload files up to 20 MB with the option of choosing a path.
-- Trolling with moving the mouse, opening websites and File Explorer, command console.
+- Trolling with moving the mouse, opening sites, File Explorer, and the command console.
 - Quick shutdown, PC reboot or logout
 
 For the effective functioning of this script, it is necessary to compile it and implement the necessary parameters of the telegram bot API into it, as well as specify your own Telegram ID. This process will allow you to gain full control over access control to your computer. Thanks to this security measure, you can reliably protect your device from unwanted intrusions.
