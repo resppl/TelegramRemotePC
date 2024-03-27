@@ -5,7 +5,7 @@ Remote computer management via Telegram is a convenient and secure way to contro
 - Complete file and folder management: create, delete, edit.
 - The ability to enter commands in the Windows command prompt.
 - Creation of dialog boxes (MSGBOX).
-- Taking screenshots of the screen and camera, as well as recording video from the camera (up to 60 seconds) and recording voice messages (up to 60 seconds).
+- Taking screenshots of the screen and camera, as well as recording video from the camera (up to 60 seconds) and recording voice (up to 60 seconds).
 - Full keyboard access to use keyboard shortcuts and print characters.
 - Automatic output of information about the computer when the bot is launched: IP address, startup time, screen resolution, information about memory, user name, active window, installed OS, processor, RAM, battery. This function can be called at any time.
 - Opening websites, controlling the brightness of the screen.
@@ -60,7 +60,7 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Полное управление файлами и папками: создание, удаление, редактирование.
 - Возможность ввода команд в командной строке Windows.
 - Создание диалоговых окон (MSGBOX).
-- Создание скриншотов экрана и камеры, а также запись видео с камеры (до 60 секунд) и запись голосовых сообщений (до 60 секунд).
+- Создание скриншотов экрана и камеры, а также запись видео с камеры (до 60 секунд) и запись голоса (до 60 секунд).
 - Полный доступ к клавиатуре для использования сочетаний клавиш и печати символов.
 - Автоматический вывод информации о компьютере при запуске бота: IP-адрес, время запуска, разрешение экрана, информация о памяти, имени пользователя, активном окне, установленной ОС, процессоре, ОЗУ, батарее. Эту функцию можно вызвать в любое время.
 - Открытие сайтов, управление яркостью экрана.
