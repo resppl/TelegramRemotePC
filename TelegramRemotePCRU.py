@@ -1,6 +1,6 @@
 # ГИТХАБ АВТОРА: github.com/resppl
 # СКРИПТ НА ГИТХАБЕ: github.com/resppl/TelegramRemotePC
-# САЙТ АВТОРА: resp05.ru
+# САЙТ АВТОРА: resppl.ru
 
 import os, pyautogui, subprocess, keyboard, psutil, sqlite3, cv2, pyaudio, wave, asyncio, time
 
