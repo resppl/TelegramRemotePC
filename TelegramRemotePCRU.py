@@ -938,6 +938,8 @@ def create_msgbox_check(message: types.Message, title: str):
     
     if result == 1:
         bot.send_message(message.chat.id, f'🔒 Пользователь ПК решил закрыть диалоговое окно 🔒\n\nℹ️ Информация о диалоговом окне ℹ️\n\n💬 Заголовок диалогового окна: *{title}*\n📋 Содержание диалогового окна: *{message.text.strip()}*', parse_mode='Markdown')
+    
+    return
 
 def console_menu(message: types.Message):
     if is_access_denied(message.from_user): return None
