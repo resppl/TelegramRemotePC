@@ -85,13 +85,18 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Замените "YOUR_BOT_TOKEN_HERE" в скрипте под названием "TelegramRemotePCRU" на скопированный токен от BotFather.
 - Замените "YOUR_ID_TELEGRAM" в скрипте под названием "TelegramRemotePCRU" на ваш ID Telegram.
 
-# Для того чтобы скомпилировать файл Python в исполняемый файл (exe) с помощью PyInstaller и добавить иконку, следуйте инструкциям ниже:
+# Для того чтобы обфусцировать и скомпилировать файл Python в исполняемый файл (exe) с помощью PyInstaller и добавить иконку, следуйте инструкциям ниже:
 
-1. Установите PyInstaller, если у вас его еще нет. Вы можете установить его с помощью pip, выполнив следующую команду:
+1. Установите PyInstaller и PyArmor, если у вас его еще нет. Вы можете установить его с помощью pip, выполнив следующую команду:
 
-       pip install pyinstaller
-       
-2. Откройте командную строку (Command Prompt) или терминал и перейдите в директорию, где находится ваш файл Python, который вы хотите скомпилировать в exe.
+        pip install pyinstaller pyarmor
+
+2. Откройте командную строку (Command Prompt) или терминал и перейдите в директорию, где находится ваш файл Python, который вы хотите обфусцировать.
+       pyarmor obfuscate "path/to/your/script.py"
+
+3. После выполнения этой команды PyArmor обфусцирует ваш файл Python и создастся папка dist.
+
+4. Необходимо будет перейти в папку dist, открыть командную консоль (Command Prompt) или терминал и перейдите в директорию, где находится ваш файл Python, который вы хотите скомпилировать в exe.
 
        pyinstaller -w -F --icon "path/to/your/icon.ico" "path/to/your/script.py"
 
@@ -100,7 +105,7 @@ For the effective functioning of this script, it is necessary to compile it and 
         --icon "path/to/your/icon.ico" позволяет добавить иконку к вашему исполняемому файлу. Укажите путь к вашей иконке в формате .ico.
         "path/to/your/script.py" - путь к Вашему файлу Python
 
-3. После выполнения этой команды PyInstaller скомпилирует ваш файл Python в исполняемый файл (exe) с указанной иконкой.
+5. После выполнения этой команды PyInstaller скомпилирует ваш файл Python в исполняемый файл (exe) с указанной иконкой.
 
 # Как поставить исполняемый файл в автозагрузки:
 1. Сначала загрузите файл exe, который вы хотите обернуть в ярлык, на ваш компьютер.
