@@ -27,7 +27,7 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Replace "YOUR_BOT_TOKEN_HERE" in the script called "TelegramRemotePCUS" with the copied token from BotFather.
 - Replace "YOUR_ID_TELEGRAM" in the script called "TelegramRemotePCUS" with your Telegram ID.
 
-# TO OBFUSCATE AND COMPILE A PYTHON FILE INTO AN EXECUTABLE FILE (EXE) USING PYINSTALLER AND ADD AN ICON, FOLLOW THE INSTRUCTIONS BELOW:
+# TO OBFUSCATE WITH PYARMOR AND COMPILE A PYTHON FILE INTO AN EXECUTABLE FILE (EXE) USING PYINSTALLER AND ADD AN ICON, FOLLOW THE INSTRUCTIONS BELOW:
 
 1. Install PyInstaller and PyArmor if you don't already have it. You can install it using pip by running the following command:
 
@@ -90,9 +90,9 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Замените "YOUR_BOT_TOKEN_HERE" в скрипте под названием "TelegramRemotePCRU" на скопированный токен от BotFather.
 - Замените "YOUR_ID_TELEGRAM" в скрипте под названием "TelegramRemotePCRU" на ваш ID Telegram.
 
-# Для того чтобы обфусцировать и скомпилировать файл Python в исполняемый файл (exe) с помощью PyInstaller и добавить иконку, следуйте инструкциям ниже:
+# Для того чтобы обфусцировать с помощью PyArmor и скомпилировать файл Python в исполняемый файл (exe) с помощью PyInstaller и добавить иконку, следуйте инструкциям ниже:
 
-1. Установите PyInstaller и PyArmor, если у вас его еще нет. Вы можете установить его с помощью pip, выполнив следующую команду:
+1. Установите PyInstaller и PyArmor, если у вас их еще нет. Вы можете установить с помощью pip, выполнив следующую команду:
 
         pip install pyinstaller pyarmor
 
