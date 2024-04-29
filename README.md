@@ -27,22 +27,27 @@ For the effective functioning of this script, it is necessary to compile it and 
 - Replace "YOUR_BOT_TOKEN_HERE" in the script called "TelegramRemotePCUS" with the copied token from BotFather.
 - Replace "YOUR_ID_TELEGRAM" in the script called "TelegramRemotePCUS" with your Telegram ID.
 
-# TO COMPILE A PYTHON FILE INTO AN EXECUTABLE FILE (EXE) USING PYINSTALLER AND ADD AN ICON, FOLLOW THE INSTRUCTIONS BELLOW
+# TO OBFUSCATE AND COMPILE A PYTHON FILE INTO AN EXECUTABLE FILE (EXE) USING PYINSTALLER AND ADD AN ICON, FOLLOW THE INSTRUCTIONS BELOW:
 
-1. Install PyInstaller if you don't have it yet. You can install it using pip by running the following command:
+1. Install PyInstaller and PyArmor if you don't already have it. You can install it using pip by running the following command:
 
-       pip install PyInstaller
+         pip install pyinstaller pyarmor
 
-2. Open a command Prompt or terminal and navigate to the directory where your Python file is located, which you want to compile into an EXE.
+2. Open a Command Prompt or Terminal and navigate to the directory where your Python file that you want to obfuscate is located.
+         pyarmor obfuscate "path/to/your/script.py"
 
-       pyinstaller -w -F --icon "path/to/your/icon.ico" "path/to/your/script.py"
+3. After running this command, PyArmor will obfuscate your Python file and create a dist folder.
 
-       -w means that the console window will not be displayed at startup.
-       -F tells PyInstaller to create a single executable file (exe).
-       --icon "path/to/your/icon.ico" allows you to add an icon to your executable file. Specify the path to your icon in the .ico format.
-       "path/to/your/script.py " - path to your Python file
+4. You will need to go to the dist folder, open a Command Prompt or terminal and go to the directory where your Python file is located that you want to compile into an exe.
 
-3. After executing this command, PyInstaller will compile your Python file into an executable file (EXE) with the specified icon.
+        pyinstaller -w -F --icon "path/to/your/icon.ico" "path/to/your/script.py"
+
+         -w means that the console window will not be displayed at startup.
+         -F tells pyInstaller to create a single executable file (exe).
+         --icon "path/to/your/icon.ico" allows you to add an icon to your executable. Specify the path to your icon in .ico format.
+         "path/to/your/script.py" - path to your Python file
+
+5. After executing this command, PyInstaller will compile your Python file into an executable file (exe) with the specified icon.
 
 # HOW TO PUT AN EXECUTABLE FILE IN STARTUP:
 1. First download the exe file that you want to wrap in a shortcut to your computer.
@@ -92,6 +97,7 @@ For the effective functioning of this script, it is necessary to compile it and 
         pip install pyinstaller pyarmor
 
 2. Откройте командную строку (Command Prompt) или терминал и перейдите в директорию, где находится ваш файл Python, который вы хотите обфусцировать.
+
        pyarmor obfuscate "path/to/your/script.py"
 
 3. После выполнения этой команды PyArmor обфусцирует ваш файл Python и создастся папка dist.
